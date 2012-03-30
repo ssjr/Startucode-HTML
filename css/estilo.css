@@ -1,0 +1,137 @@
+@import url("./reset.css");
+
+@font-face {
+	font-family: Museo300;
+  src:  url(./fonts/Museo300-Regular-webfont.eot?) format('eot'),
+        url(./fonts/Museo300-Regular-webfont.woff) format('woff'),
+        url(./fonts/Museo300-Regular-webfont.ttf) format('truetype'),
+        url(./fonts/Museo300-Regular-webfont.svg#webfontpXXAQkWV) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a{text-decoration: none}
+.left{float: left}
+.right{float: right}
+.clear{clear: both}
+.center{
+  width: 940px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  color: #424949;
+}
+h1{font-size: 26px}
+h2{font-size: 24px}
+h3{font-size: 18px}
+h4{font-size: 18px}
+h5{font-size: 16px}
+h6{font-size: 14px}
+
+p{line-height: 1.4em}
+
+body{
+  font-family: Museo300, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  background: url("../images/bg.png") repeat center center;
+}
+
+#header{
+  text-align: center;
+  padding-top: 20px;
+}
+#logo{
+  background: url("../images/logo.png") no-repeat center center;
+  height: 100px;
+  width: 475px;
+  display: block;
+  margin: 0 auto;
+}
+#logo h1{
+  visibility: hidden;
+  text-indent: -9999px;
+  height: 100px;
+  width: 475px;
+}
+#headform{
+  background: url("../images/bg-acao.png") no-repeat center center;
+  height: 297px;
+}
+
+#headform > div > p{
+  padding: 0 30px;
+  margin: 0;
+  color: #AB9C89;
+}
+
+#headformh1{
+  font-size: 18px;
+  color: #D1642D !important;
+  padding-top: 140px !important;
+  margin-bottom: 10px;
+}
+
+#headform form{
+  text-align: center
+}
+
+.input{
+  width: 202px;
+  padding: 0 5px;
+  height: 42px;
+  margin: 0 5px;
+  line-height: 42px;
+  font-size: 18px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  vertical-align: bottom;
+}
+.submit{
+  background: url("../images/btn-interessado.png");
+  border: 0;
+  vertical-align: top;
+  text-indent: -9999px;
+  height: 63px;
+  width: 202px;
+}
+
+#content > div.center{
+  background: url("../images/bg-content.png") no-repeat center center;
+  height: 466px;
+  width: 795px;
+  padding-left: 35px;
+  padding-right: 110px;
+}
+#footer{
+  min-height: 100px;
+}
+#content div.left.you-know{
+  width: 405px;
+}
+#content div.left.you-know p{
+  font-size: 14px;
+}
+#content div.left.you-know small{
+  font-size: 10px;
+}
+#content div.right.next-step{
+  width: 390px;
+}
+#content div.left.step{
+  width: 345px;
+}
+#content div.left.step h3{
+  background: url("../images/bg-bt-content.png") no-repeat top left;
+  min-height: 58px;
+  line-height: 58px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  color: #fff
+}
+#content div.right.step{
+  width: 450px;
+}
+#content > div.center > h2{
+  padding: 40px 0;
+}

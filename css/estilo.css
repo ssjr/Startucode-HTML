@@ -46,6 +46,19 @@ body{
   width: 475px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+#header p{
+  font-size: 20px;
+}
+#header h2{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#header > div div{
+  padding: 4px 0;
+  border-bottom: 1px solid #666
 }
 #logo h1{
   visibility: hidden;
